@@ -1,0 +1,49 @@
+{
+  "name": "night-wind-browser",
+  "version": "1.0.0",
+  "description": "A browser that cares about your privacy",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "package": "electron-forge package",
+    "package:win": "electron-forge package --platform win32",
+    "make": "electron-forge make",
+    "make:win": "electron-forge make --platform=win32"
+  },
+  "author": "Kaze Development",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.1.1",
+    "electron": "^24.4.0"
+  },
+  "dependencies": {
+    "@electron-forge/maker-deb": "^6.1.1",
+    "@electron-forge/maker-rpm": "^6.1.1",
+    "@electron-forge/maker-squirrel": "^6.1.1",
+    "electron-tabs": "^1.0.1",
+    "tor-request": "^3.1.0"
+  },
+  "keywords": [],
+  "config": {
+    "forge": {
+      "packagerConfig": {
+        "icon": "assets/icon.ico"
+      },
+      "makers": [
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {}
+        }
+      ]
+    }
+  }
+}
