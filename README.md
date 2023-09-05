@@ -11,4 +11,4 @@ it does not keeps your;
 
 # Screen Shot
 
-![Night Wind Browser Home Page](http://kazedevelopment.tk/img/nightwindbrowserss1.png)
+![Night Wind Browser Home Page](http://kazedevelopment.xyz/img/nightwindbrowserss1.png)
