@@ -5,7 +5,6 @@
 Night Wind cares your privacy
 it does not keeps your;
   - Browser history
-  - Logs and other private stuff *such a boring stuff why are developers obsessed with these*
   - And it uses [Duck Duck Go](https://duckduckgo.com/) as search engine
 
 # Screen Shot
